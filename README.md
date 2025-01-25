@@ -1,57 +1,49 @@
-# [Project Name] 🎯
+# Study Group Tool 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name:TwoS
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Sangeetha C.S - MBCCET
+- Member 2: Sreeshma.M - MBCCET
 
 
 ### Hosted Project Link
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+A group study
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+longliness
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+group
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- html,css,javascript
+- html,css,javascript
+- javascript
+- vscode
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+HOME SCREEN
+![ss1](https://github.com/user-attachments/assets/c020f47b-7e77-4bb4-925d-6ed5427f70c3)
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+ADDED DATA
+![ss2](https://github.com/user-attachments/assets/a44dd55c-3224-485f-98f4-a92cd10ae3e9)
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
 
-### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
+https://github.com/user-attachments/assets/eebbd6ec-2924-4192-99ba-d806e3256f58
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- SANGEETHA C.S: IDEA AND BASIC CODING
+- SREESHMA M: ADVANCED JAVA SCRIPT AND CSS
 
 ---
 Made with ❤️ at TinkerHub
