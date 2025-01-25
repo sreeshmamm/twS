@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Group Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Study Group Tool</h1>
+        <nav>
+            <ul>
+                <li><a href="#groups">Study Groups</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#notes">Notes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="groups">
+            <h2>Study Groups</h2>
+            <form id="createGroupForm">
+                <input type="text" id="groupName" placeholder="Group Name" required>
+                <input type="text" id="subject" placeholder="Subject" required>
+                <button type="submit">Create Group</button>
+            </form>
+            <div id="groupList"></div>
+        </section>
+        <section id="schedule">
+            <h2>Schedule Study Session</h2>
+            <form id="scheduleForm">
+                <select id="groupSelect" required>
+                    <option value="">Select a group</option>
+                </select>
+                <input type="datetime-local" id="sessionDateTime" required>
+                <input type="text" id="location" placeholder="Location" required>
+                <button type="submit">Schedule Session</button>
+            </form>
+            <div id="sessionList"></div>
+        </section>
+        <section id="notes">
+            <h2>Share Notes</h2>
+            <form id="noteForm">
+                <select id="noteGroupSelect" required>
+                    <option value="">Select a group</option>
+                </select>
+                <input type="text" id="noteTitle" placeholder="Note Title" required>
+                <textarea id="noteContent" placeholder="Note Content" required></textarea>
+                <button type="submit">Share Note</button>
+            </form>
+            <div id="noteList"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color:lightblue
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+section {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 600px;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input,
+select,
+textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100px;
+  height: auto;
+  padding: 5px 10px; 
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#groupList,
+#sessionList,
+#noteList {
+  display: grid;
+  gap: 10px;
+}
+
+.group-item,
+.session-item,
+.note-item {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
+
